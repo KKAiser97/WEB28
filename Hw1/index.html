@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Session1</title>
+</head>
+<body>
+    <h1 style="text-align: center; color:rgb(255, 94, 0)">Hello World!</h1>  
+    <form id="main" style="text-align: center">
+        <input id="main-input" type="text" placeholder="Enter your name">
+        <br><input type="submit" value="Confirm"></br>
+    </form>
+    <script>
+        
+        function alertHi(){
+            var name=document.getElementById("main-input").value;
+            alert("Welcome "+ name+"!");
+        }
+        document.getElementById("main").onsubmit=alertHi;
+    </script> 
+</body>
+</html>
