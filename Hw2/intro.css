@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+table{
+    text-align:left; 
+    margin:auto
+}
+span {
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    background-color: yellow;
+}
+.container{
+    width:100%;
+    background-color: darkgrey;
+}
+#skills{
+    width:300px;
+    margin:auto;
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+.skill{
+    text-align: right;
+    color: white;
+    line-height: 20px;
+}
+.html{
+    width:50%;
+    background-color: blue;
+}
+.css{
+    width:40%;
+    background-color: red;
+}
+.js{
+    width:30%;
+    background-color: yellow;
+}
