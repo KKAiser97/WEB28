@@ -1,0 +1,17 @@
+nav{
+    display: block;
+    background-color: #D5B0AC;
+    font-weight: bold;
+    text-align: center;
+}
+span{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    padding-top: 10px;
+}
+span:hover{
+    background-color: #9CD08F;
+    color: #FFFFFF;
+    cursor:hand;
+}
