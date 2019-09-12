@@ -1,0 +1,34 @@
+body{
+    background:yellowgreen;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    background: whitesmoke;
+    color: orange;
+    border-style: solid;
+    width: 800px;
+    height: 250px;
+    padding: 50px 20px; 
+}
+#content{
+    font-size: larger;
+}
+#author{
+    font-size: medium;
+    padding-left: 300px;
+}
+#btn{
+    font-weight: bold;
+    border: none;
+    background: orange;
+    color: white;
+    border-radius: 0.3em;
+    font-size: large;
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px #888888;
+}
