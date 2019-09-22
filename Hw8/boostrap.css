@@ -1,0 +1,48 @@
+.navbar{
+    padding: 0 !important;
+    box-shadow: 0px 0px 5px black;
+}
+.nav-item:hover {
+    background-color: rgb(220, 53, 70);
+    color: white
+  }
+header{
+    height: 350px;
+    padding: 80px;
+    text-align: center;
+}
+.display-4{
+    margin-bottom: 30px;
+}
+.btn{
+    margin-top: 50px;
+}
+.btn:hover{
+    background: grey;  
+    box-shadow: 0px 0px 5px black; 
+}
+.row{
+    height: fit-content;
+    padding: 20px;
+}
+.fas{
+    color:rgb(220, 53, 70);
+    font-size: 200px;
+}
+.fa-paper-plane{
+    display: block;
+    margin-right:100px;
+}
+.quote{
+    height: 200px;
+    padding-top:80px;
+    color: whitesmoke;
+}
+.contact{
+    text-align: center;
+    margin: 20px;
+}
+i{
+    padding: 5px;
+    
+}
